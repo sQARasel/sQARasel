@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginAdverts { public static void main(String[] args) {
 
-    // Locators
+    // Locators  
     By loginLinkLocator = By.xpath("//*[@id=\"header\"]/div/div/a[3]");
     By cookiePopUpLocator =  By.xpath("//*[@id=\"js-cookie-modal-level-one\"]/div/main/div/button[2]") ;
     By loginEmailsOrUserNameInputLocator = By.cssSelector("input#email");
